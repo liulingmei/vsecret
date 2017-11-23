@@ -1,0 +1,40 @@
+include header
+
+block content
+    section.container.vs-main
+        .row
+            .col-xs-12.hidden-xs
+                a.homemainKv(href='location.php')
+                    img.img-responsive(alt='维多利亚的秘密2016新品上市', src='images/kv/homepageKV.gif')
+            .col-xs-12.visible-xs.mobileMainKv
+                a(href='location.php')
+                    img.img-responsive.mobkv(alt='维多利亚的秘密2016新品上市', src='images/mobkv/homepageKV.jpg')
+    section.container.vs-homepageOrder
+        #subscribe.vs-orderWrap
+            .row.vs-vMiddle
+                .col-md-9.col-xs-7.vs-homeOrderCopy
+                    h3 订阅官方电子通讯
+                    p.hidden-xs
+                        | 抢先获取
+                        span.fabric Victoria's Secret
+                        | 最新优惠,
+                        br
+                        | 了解更多新品、门店活动及开业信息。
+                    p.visible-xs
+                        img.img-responsive(src='images/MoblieOrdercopy.png')
+                .col-md-3.col-xs-5.vs-homeOrderBtnGrp
+                    button.vs-homeorderBtn 点击注册
+    section.container.vs-main.mobieKv
+        #beauty.row.visible-xs.vs-homepageKV
+            .col-xs-12
+                a(href='beauty.php')
+                    img.img-responsive(alt='维多利亚的秘密彩妆,化妆品,香水', src='images/mobkv/Beauty.jpg')
+        #sports.row.visible-xs.vs-homepageKV
+                a(href='sports.php')
+                    img.img-responsive(alt='维多利亚的秘密运动系列,运动内衣', src='images/mobkv/Sports.jpg')
+        #pink.row.visible-xs.vs-homepageKV
+            .col-xs-12
+            .col-xs-12
+                a(href='pink.php')
+                    img.img-responsive(alt='维多利亚的秘密PINK', src='images/mobkv/Pink.jpg')
+include footer

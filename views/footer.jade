@@ -1,0 +1,71 @@
+footer
+    section.footFUC
+        .container
+            .row.vs-footerRow
+                .col-md-2.col-md-push-4.col-xs-12.findStoreBox
+                    p
+                        .findStore
+                    p
+                        a.vs-whiteLink.footerStore(href='location.php') 查找门店
+                .col-md-2.col-md-push-4.col-xs-12.vs-tamll
+                    a.vs-whiteLink(href='http://victoriassecretcn.tmall.com')
+                        span.fabric.vs-tmallTitle Victoria’s Secret
+                        span.vs-tmallIco
+                        span.vs-tmallCopy
+                            | 天猫官方旗舰店
+                .col-md-4.col-md-pull-4.col-xs-12
+                    p
+                        | 订阅
+                        span.fabric Victoria’s Secret
+                        | 电子资讯
+                    form(action='subscribe.php', method='post')
+                        fieldset
+                            span.vs-input-text
+                                input#vableew(type='email', name='email', placeholder='邮箱')
+                            button(type='submit')
+                                img(alt='维多利亚的秘密订阅', src='images/homeInputArrow.png')
+                                span.vs-offscreen Sign Up
+                    p.vs-footer14px
+                        | 获取更多优惠
+                .col-md-4.col-xs-12
+                    p
+                        | 关注
+                        span.fabric Victoria’s Secret
+                    p
+                        span.vs-footerShare
+                            img.qrcodepic(alt='维多利亚的秘密二维码', src='images/qrcode.png')
+                            a.footerWeibo(href='http://weibo.com/p/1006066016404050/home?from=page_100606&mod=TAB&is_all=1#place', target='_blank')
+                                img(alt='维多利亚的秘密微博', src='images/ico_weibo.png')
+                        span.vs-footerShare
+                            img.icoWechat.footerWechat(alt='维多利亚的秘密微信', src='images/ico_wechat.png')
+            .row.vs-footerRow2nd
+                .footer-3.col-xs-12.vs-footer14px.vs-footerEmail
+                    // <p>客服邮箱：<br class="mobBr"><a class="ga-email" href="mailto:customer.care@lbrandsgc.cn">customer.care@lbrandsgc.cn</a></p>
+                    p.footer-3-p.footer-hotline
+                        | 热线电话：
+                        br.mobBr
+                        a(href='tel:400 921 8006') 400 921 8006
+                        // <br class="mobBr">（9:00-18:00，周一至周日）
+                .footer-3.col-xs-12.hidden-xs
+                .footer-3.col-xs-12.privacyLink
+                    p.mobilePrivacyLink.hidden-xs.col-md-12
+                        a.vs-whiteLink.footerTerms(href='terms.php', target='_blank') 隐私条款
+                        a.vs-whiteLink.footer-aboutus(href='aboutus.php') 关于我们
+                    ul.mobilePrivacyLink.visible-xs
+                        li
+                            a.vs-whiteLink.footerTerms(href='terms.php', target='_blank') 隐私条款
+                        li
+                            a.vs-whiteLink.footer-aboutus(href='aboutus.php') 关于我们
+                        li
+                            a(href='en/index.php') ENGLISH
+                            |  
+                            span.highLTxt 中文
+    section.vs-footCopyright
+        .container
+            | Copyright©  2017 蕾碧裳贸易（上海） 版权所有 
+            br
+            span
+                a(href='http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action', target='_blank') 沪ICP备16041657号
+nav#floating.dn
+    a#top.fab-ico--backtotop-before(role='link', tabindex='0', rel='nofollow', style='display: block;')
+        .vs-offscreen Back to top

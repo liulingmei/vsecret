@@ -1,0 +1,84 @@
+doctype html
+head
+    meta(charset='utf-8')
+    title 维多利亚的秘密中国官网 - Victoria's Secret性感的文胸，内衣和彩妆
+    link(rel='shortcut icon', href='images/favicon.ico', type='image/x-icon')
+    meta(name='description', content='Victoria’s Secret是享誉全球的女性内衣品牌，专注于内衣、高级香氛、身体护理、美妆配饰及运动休闲服饰等领域， 一年一度的时尚大秀和性感迷人的天使超模让其成为全球瞩目的焦点。')
+    meta(name='keywords', content='')
+    meta(name='apple-mobile-web-app-title', content='VS Shop')
+    meta(property='og:title', content="Victoria's Secret: The Sexiest Bras, Lingerie & Women's Fashion")
+    meta(property='og:type', content='website')
+    meta(property='og:url', content='https://www.victoriassecret.com')
+    meta(property='og:image', content='https://dm.victoriassecret.com/resources/img/default-share.png')
+    meta(property='og:site_name', content="Victoria's Secret")
+    meta(property='og:description', content="The world's best bras. The sexiest lingerie. The most beautiful Supermodels. Discover what's hot now - from beauty & sleepwear to fashion & swim.")
+    meta(property='og:locale', content='UTF-8')
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:url', content='https://www.victoriassecret.com')
+    meta(name='twitter:title', content="Victoria's Secret: The Sexiest Bras, Lingerie & Women's Fashion")
+    meta(name='twitter:description', content="The world's best bras. The sexiest lingerie. The most beautiful Supermodels. Discover what's hot now - from beauty & sleepwear to fashion & swim.")
+    meta(name='twitter:image', content='https://dm.victoriassecret.com/resources/img/default-share.png')
+
+    meta(http-equiv='X-UA-Compatible', content='IE=Edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+    link(rel='apple-touch-icon-precomposed', href='images/apple-touch-icon-114x114-precomposed.png')
+    link(rel='stylesheet', type='text/css', href='stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/globe.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/homepage.css')
+
+  body
+    block content
+        nav#left-nav(aria-hidden='true', role='navigation', style='display:none')
+            section.interactive-nav
+                ul(role='menu')
+                    li
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('fashion-show')", role='menuitem', rel='nofollow') 维密秀
+                    li
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('bra')", role='menuitem', rel='nofollow') 内衣
+                    li
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('beauty')", role='menuitem', rel='nofollow') 美妆
+                    li
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('sports')", role='menuitem', rel='nofollow') 运动
+                    li.pinkNav
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('pink')", role='menuitem', rel='nofollow') 维密PINK
+                    li
+                        a.vs-ico-rightarrow-black-before(href="javascript:jumpPage('subscribe')", role='menuitem', rel='nofollow') 订阅
+                    li
+                        a.vs-ico-rightarrow-black-before(href='location.php', role='menuitem', rel='nofollow') 门店位置
+        button#left-nav-close.closeNav(type='button')
+        header
+            section.container-fluid.vs-topNav
+                a(href='index.php')
+                    img.visible-xs.mobileLogo(alt='维多利亚的秘密LOGO', src='images/mobileLogo.png')
+            section.container.vs-logoWrap
+                .vs-language.hidden-xs
+                    a.ga_en(href='en/index.php') ENGLISH
+                    |  
+                    span.highLTxt.ga_cn 中文
+                .vs-logo.hidden-xs
+                    a(href='index.php')
+                        img(alt='维多利亚的秘密LOGO', src='images/VSLogo.png')
+                .visible-xs.vs-mobileHeader
+                    .vs-mobileHeaderNav
+                        a#btnNavBar(href='javascript:void(0)')
+                            img(alt='维多利亚的秘密导航', src='images/icoBar.png')
+                        a#btnFind(href='location.php')
+                            img(alt='维多利亚的秘密分店', src='images/ico_storeMenu.png')
+                        a#btnSubs(href='subscribe.php')
+                            img(alt='维多利亚的秘密订阅', src='images/ico_subs.png')
+            nav.container.vs-Mainnav.hidden-xs
+                ul.vs-navList
+                    li
+                        a(rel='nofollow', href='bra.php') 内衣
+                    li
+                        a(rel='nofollow', href='beauty.php') 美妆
+                    li
+                        a(rel='nofollow', href='sports.php') 运动
+                    li
+                        a(rel='nofollow', href='pink.php') 维密PINK
+                    li
+                        a(rel='nofollow', href='subscribe.php') 订阅
+                    li
+                        a(rel='nofollow', href='location.php') 门店位置
+                    li
+                        a(rel='nofollow', href='fashion-show.php') 维密秀
